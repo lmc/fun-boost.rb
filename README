@@ -5,3 +5,5 @@ Picks a random class from your running code and swaps two methods with matching 
 Usage:
 require 'fun-boost'
 That's it! fun-boost waits five minutes to allow your code to load and for you to start developing, then invokes fun once.
+
+Inspired by sysfunboost.sh - http://github.com/jaspervdj/sysfunboost.sh
