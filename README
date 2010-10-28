@@ -1,0 +1,7 @@
+fun-boost.rb
+
+Picks a random class from your running code and swaps two methods with matching aritys so there's no nasty 'wrong number of arguments' errors. Good for hours of fun diagnosing random problems!
+
+Usage:
+require 'fun-boost'
+That's it! fun-boost waits five minutes to allow your code to load and for you to start developing, then invokes fun once.
