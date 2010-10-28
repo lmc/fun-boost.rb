@@ -1,5 +1,12 @@
 #creates fun for web developers
 class WebDevFunBoost
+  def self.initialize_fun
+    Thread.new do
+      sleep(300) #wait a bit for things to load before starting the fun
+      WebDevFunBoost.create_fun!
+    end
+  end
+  
   def self.create_fun!
     create_fun_on_instance(random_instance)
   end
@@ -46,3 +53,5 @@ class WebDevFunBoost
     return array[rand(array.size)]
   end
 end
+
+WebDevFunBoost.initialize_fun
